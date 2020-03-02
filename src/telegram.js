@@ -670,7 +670,7 @@ class TelegramBot extends EventEmitter {
       debug('Process Update poll %j', poll);
       this.emit('poll', poll);
     } else if (pollAnswer) {
-      debug('Process Update poll_answer %j', poll);
+      debug('Process Update poll_answer %j', pollAnswer);
       this.emit('poll_answer', pollAnswer);
     }
   }
